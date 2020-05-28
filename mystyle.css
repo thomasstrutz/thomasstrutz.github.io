@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+padding: 0;
+font-family: Gerorgia, serif;
+}
+
+header{
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./media/background.jpg);
+    height: 100vh;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li{
+    display: vertical;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.logo img{
+    float: left;
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+
+.gif img{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);;
+}
+
+.button{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.responsive{
+    width: 20%;
+    height: auto;
+}
+
+.speedrun video{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);;
+}
+
+.initials footer{
+    position: absolute;
+  bottom: 10px;
+  width: 50%;
+  color: white;
+}
+
+h1{font-family: Verdana, sans-serif; font-weight: bold;}
+h2{font-family: Verdana, sans-serif; font-weight: bold;}
+h3{font-family: Verdana, sans-serif; font-weight: bold;}
+h4{font-family: Verdana, sans-serif; font-weight: bold;}
+h5{font-family: Verdana, sans-serif; font-weight: bold;}
+h6{font-family: Verdana, sans-serif; font-weight: bold;}
